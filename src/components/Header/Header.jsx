@@ -10,8 +10,8 @@ const header = () => {
     
   return (
     <header>
-      <Button onClose={onClose}>Закрыть</Button>
-      <span className={"username"}></span>
+      <Button onClick={onClose}>Закрыть</Button>
+          <span className={"username"}>{TG_API.initDataUnsafe?.user?.username}</span>
     </header>
   );
 };
