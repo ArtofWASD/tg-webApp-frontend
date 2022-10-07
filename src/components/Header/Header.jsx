@@ -1,6 +1,6 @@
 import React from "react";
 import "./Header.css";
-import { TG_API } from "../../utils/api-constants";
+import {TG_API} from "../../utils/api-constants";
 import Button from "../Button/Button";
 
 const header = () => {
